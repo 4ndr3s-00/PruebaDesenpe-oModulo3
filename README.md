@@ -43,94 +43,28 @@ npm run dev
  ## Proyect Estructure
 
 ```
-|-public
- | |-icons.svg
- | |-favicon.svg
- |-package-lock.json
- |-vite.config.js
- |-package.json
- |-node_modules
- | |-mrmime
- | |-type-fest
- | |-magic-string
- | |-concurrently
- | |-regexparam
- | |-picomatch
- | |-emoji-regex
- | |-escalade
- | |-eta
- | |-lightningcss
- | |-lowdb
- | |-yargs-parser
- | |-y18n
- | |-detect-libc
- | |-strip-ansi
- | |-tree-kill
- | |-tinyglobby
- | |-enhanced-resolve
- | |-@tinyhttp
- | |-picocolors
- | |-source-map-js
- | |-@jridgewell
- | |-@napi-rs
- | |-cliui
- | |-header-range-parser
- | |-colorette
- | |-@rolldown
- | |-graceful-fs
- | |-dot-prop
- | |-@polka
- | |-rolldown
- | |-sort-on
- | |-tslib
- | |-dayjs
- | |-milliparsec
- | |-postcss
- | |-shell-quote
- | |-totalist
- | |-@emnapi
- | |-chokidar
- | |-vite
- | |-string-width
- | |-sirv
- | |-jiti
- | |-ansi-styles
- | |-fdir
- | |-get-caller-file
- | |-wrap-ansi
- | |-lightningcss-linux-x64-gnu
- | |-@oxc-project
- | |-readdirp
- | |-tagged-tag
- | |-inflection
- | |-chalk
- | |-steno
- | |-tapable
- | |-ansi-regex
- | |-@tybys
- | |-mime
- | |-yargs
- | |-get-east-asian-width
- | |-rxjs
- | |-supports-color
- | |-json5
- | |-http-status-emojis
- | |-json-server
- | |-@tailwindcss
- | |-nanoid
- | |-tailwindcss
- |-README.md
- |-db.json
- |-index.html
- |-src
- | |-controllers
- | |-api
- | |-router
- | |-views
- | |-main.js
- | |-services
- | |-assets
- | |-utils.js
- | |-components
- | |-style.css
+## Estructura base entregada
+
+```txt
+src/
+├── api/
+│   └── http.js
+├── components/
+│   ├── ReservationCard.js
+│   └── Sidebar.js
+├── controllers/
+│   ├── home.controller.js
+│   └── login.controller.js
+├── router/
+│   └── router.js
+├── services/
+│   └── reservation.service.js
+├── views/
+│   ├── homeView.js
+│   ├── loginView.js
+│   └── notFound.js
+├── main.js
+├── style.css
+└── utils.js
+
 ```
